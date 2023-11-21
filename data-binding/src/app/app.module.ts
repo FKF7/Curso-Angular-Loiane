@@ -8,11 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { MeuFormModule } from './meu-form/meu-form.module';
 import { MeuFormComponent } from './meu-form/meu-form.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataBindingComponent,
+    InputPropertyComponent
   ],
   imports: [
     BrowserModule,
